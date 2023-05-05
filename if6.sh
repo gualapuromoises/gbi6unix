@@ -1,16 +1,16 @@
 #!/bin/bash
 # case example
 case $1 in
-    start)
-        echo starting
+    ciencia)
+        echo cientifico
         ;;
-    stop)
-        echo stoping
+    matematica)
+        echo matematico
         ;;
-    restart)
-    echo restarting
+    fisica)
+    echo fisico
         ;;
-    *)
-        echo don\'t know
+    atrologia)
+        echo astronomo
         ;;
 esac

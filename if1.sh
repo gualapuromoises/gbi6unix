@@ -1,6 +1,8 @@
 #!/bin/bash
 # Basic if statement
-if [ $1 -gt 100 ]
+if [ $1 -ge 18 ]
 then
-echo "Hey that's a large number".
+echo "Eres un atomo".
+else
+echo "No eres un atomo"
 fi

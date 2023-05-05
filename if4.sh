@@ -1,6 +1,8 @@
 #!/bin/bash
 # and example
-if [ -r $1 ] && [ -s $1 ]
+if [ $1 -ge 6 ] && [ $2 -ge 60 ]
 then
-echo This file is useful.
+echo tu nota es $1 y asistencia $2, apruebas
+else
+echo tu nota es $1 y asistencia es $2, no apruebas
 fi
