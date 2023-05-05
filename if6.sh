@@ -1,16 +1,16 @@
 #!/bin/bash
 # case example
 case $1 in
-    gato)
-        echo miau
+    hierba)
+        echo herbívoro
         ;;
-    perro)
-        echo guau
+    carne)
+        echo carnívoro
         ;;
-    vaca)
-    echo muu
+    fruta)
+    echo frugívoro
         ;;
     *)
-        echo otro gato
+        echo otrívoro
         ;;
 esac
